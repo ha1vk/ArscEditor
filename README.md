@@ -11,9 +11,9 @@ It is NOT intended for piracy and other non-legal uses. It could be used for loc
 
 #### IDE of Choice
 
-[![Eclipse](.github/eclipse.png?raw=true)](http://www.eclipse.org/)
+[![Eclipse](https://avatars1.githubusercontent.com/u/56974?v=4)](http://www.eclipse.org/)
 
-#### Security Vulnerabilities
+#### Vulnerabilities
 
 If you discover a vulnerability within ArscEditor, please send an e-mail to ZhaoHai at 2801045898@qq.com.
 
