@@ -1,0 +1,28 @@
+
+    <resources>
+        <string name="app_name">ArscEditor</string>
+        <string name="ok">确定</string>
+        <string name="cancel">取消</string>
+        <string name="error">错误</string>
+        <string name="success">操作成功</string>
+        <string name="failure">操作失败</string>
+        <string name="parsing">正在解析...</string>
+        <string name="translate">翻译</string>
+        <string name="translator">翻译商:</string>
+        <string name="translating">正在翻译...</string>
+        <string name="translate_success">翻译成功！</string>
+        <string name="source_language">源语言:</string>
+        <string name="target_language">目标语言:</string>
+        <string name="skip_already_translated">跳过已翻译的内容</string>
+        <string name="search">搜索</string>
+        <string name="searching">搜索中...</string>
+        <string name="search_result">搜索结果:</string>
+        <string name="search_hint">输入需要搜索的内容</string>
+        <string name="string_edit">字符串编辑</string>
+        <string name="no_strings_for_editing">没有可供编辑的字符串</string>
+         <string name="can_not_edit">无法编辑！</string>
+         <string name="saving">保存中...</string>
+         <string name="out_of_memory">内存溢出！</string>
+        <string name="crash_message">糟糕，程序已崩溃，请将存储卡目录下的CrashLog.log发送给开发者，以进行修复</string>
+        
+    </resources>

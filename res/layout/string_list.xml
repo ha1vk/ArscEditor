@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:gravity="center_horizontal" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <TextView
+        android:gravity="top" 
+        android:id="@+id/info" 
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" />
+           
+    <ListView
+       android:id="@+id/list_res_string"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       android:descendantFocusability="beforeDescendants"
+       android:drawSelectorOnTop="false"
+       android:fastScrollEnabled="true"
+	   android:singleLine="false"
+       android:paddingLeft="1dp"
+       android:paddingRight="1dp" >
+     </ListView>
+  
+
+    <LinearLayout 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/linearLayout1" 
+        android:paddingTop="@dimen/padding_normal" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center_vertical" 
+            android:id="@+id/btnSave"  
+            android:paddingTop="@dimen/padding_normal" 
+            android:paddingBottom="@dimen/padding_normal" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/ic_save" 
+            android:layout_weight="2.0" />
+        <ImageView
+            android:layout_gravity="center_vertical" 
+            android:id="@+id/btnTranslate" 
+            android:paddingTop="@dimen/padding_normal" 
+            android:paddingBottom="@dimen/padding_normal" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/ic_translate" 
+            android:layout_weight="2.0" />
+        <ImageView
+            android:layout_gravity="center_vertical" 
+            android:id="@+id/btnSearch" 
+            android:paddingTop="@dimen/padding_normal" 
+            android:paddingBottom="@dimen/padding_normal" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/ic_search" 
+            android:layout_weight="2.0" />
+        <TextView
+            android:gravity="center" 
+            android:id="@+id/textCategory" 
+            android:text="string"
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="1.0" />
+        <TextView
+            android:gravity="center" 
+            android:id="@+id/textConfig" 
+            android:text="[DEFAULT]"
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
